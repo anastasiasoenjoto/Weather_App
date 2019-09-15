@@ -16,7 +16,6 @@ class detailedWeatherViewController: UIViewController {
     let service = weatherService()
     var page: [Page] = []
     var currentIdx: Int = 0
-//    var day: String?
     var timeZone: Int = 0
     var pageData: [PageData] = []
     let viewModel = detailedWeatherViewModel()
